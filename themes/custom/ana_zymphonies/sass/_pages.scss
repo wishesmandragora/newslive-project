@@ -1,0 +1,185 @@
+
+.topwidget{
+	text-align: left;
+
+	p{
+		margin-bottom: 10px;
+	}
+
+	.fa{
+		font-size: 4em;
+		color: $linkColor;
+	}
+
+	.region{
+		padding: 10px;
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+
+		li{
+			list-style: none;
+			padding-bottom: 6px;
+			margin-bottom: 6px;
+			border-bottom: 1px solid #ddd;
+		}
+	}
+}
+
+
+/*----------------------------
+	Contact page
+-----------------------------*/
+
+.contact-message-feedback-form{
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid #E9E8ED;
+    padding: 10px 20px;
+    background: #FDFDFD;
+  }
+
+.contact-message-feedback-form {
+
+	.form-text, 
+	.form-email, 
+	.form-textarea{ 
+		width: 100%; 
+	}
+
+}
+
+
+/*----------------------------
+	User Login Form
+-----------------------------*/
+
+.user-login-form,
+.user-form,
+.user-pass{
+	max-width: 500px;
+    margin: 40px auto;
+    border: 1px solid #e6e6e6;
+    padding: 5px 20px;
+    background: #fdfdfd;
+
+	.form-text,
+	.form-email{
+		width: 100%;
+	}
+}
+
+.form-composite > .fieldset-wrapper > .description, 
+.form-item .description {
+	color: #999;
+	font-style: italic;
+}
+
+
+/*----------------------------
+	Maintainance
+-----------------------------*/
+
+.maintenance-page{
+	background: image-url("maintenance-bg.png") #66CBFF center no-repeat;
+	color: #fff;
+	text-align: center;
+	padding-top: 220px;
+	padding-bottom: 100px;
+	color: #000;
+
+	.brand,
+	.name-and-slogan{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.site-name a{
+		color: #404040;
+	}
+
+	.site-slogan,
+	.name-and-slogan{
+		display: none;
+	}
+}
+
+.maintenance-msg {
+	margin: 20px 0;
+	padding: 20px 30px;
+	display: inline-block;
+	color: #404040;
+	border: 1px solid #fff;
+	background: rgb(242, 244, 207);
+	background: rgba(242, 244, 207, 0.88);
+	@include box-shadow (5px 5px 0px #fff);
+
+ 	h1{
+	  text-transform: uppercase;
+	  font-weight: bold;
+	}
+}
+
+
+/*----------------------------
+	Profile Page
+-----------------------------*/
+
+.path-user{
+
+	.profile {
+
+		> div{
+			display: inline-block;
+		}
+
+		.label{
+		  display: block;
+		  color: #333;
+		}
+	}
+}
+
+
+/*----------------------------
+	Clients page
+-----------------------------*/
+
+.node--type-clients,
+.node--type-services{
+	h2{
+		display: none;
+	}
+}
+
+.field--name-field-clients-logo .owl-item {
+	padding: 5px;
+    border: 2px dotted #ddd;
+    text-align: center;
+
+    img{
+    	display: inline-block;
+    	width: auto;
+
+    }
+}
+
+.field--name-field-service .owl-item {
+	background: $servicesBg;
+	padding: 5px 10px;
+
+	h3{
+		color: #fff;
+	}
+
+	p{
+		color: $servicesTextColor;		
+	}
+}
+
+.content-image{
+	float: left;
+	margin: 0 10px 5px 0;
+}

@@ -1,0 +1,6 @@
+name: Twig
+type: theme
+description: 'A twig theme for demonstrating TWIG syntax'
+core: 8.x
+base theme: false
+screenshot: screenshot.png
